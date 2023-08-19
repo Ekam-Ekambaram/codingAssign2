@@ -1,0 +1,23 @@
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+  "username":"JoeBiden",
+  "password":"biden@12"
+}
+
+
+###
+
+POST http://localhost:3000/register/
+Content-Type: application/json
+
+{
+  "username":"JoeBiden",
+  "password":"biden@123"
+}
+
+###
+
+GET http://localhost:3000/
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwidXNlcklkIjoyLCJpYXQiOjE2OTI0NjUyMzd9.qBr9E6hDIvqp7x1RaTqUS9PwsfvtJOPehFcX80BY2PA
